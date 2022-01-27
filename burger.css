@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+.container{
+    background-color: orange;
+   
+}
+.navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    z-index: 40;
+    color: white;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+    font-family: Almarena;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    color: crimson;
+}
+.navbar .logo{
+    position: absolute;
+    background-color: green;
+    height: 60px;
+    width: 55px;
+    left: 0;
+    top: 0;
+    border-radius:0px 10px 6px;
+}
+.logo img{
+    height: 55px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burg{
+    
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    filter: drop-shadow( 7px rgba(0, 0, 0, 0.562));
+    
+}
+.ri-notification-off-line{
+font-size: 25px;
+position: absolute;
+left: 1150px;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: red; */
+}
+.ri-notification-off-line:hover{
+    color: rgb(20, 20, 20);
+}
+.btn{
+    top: 2;
+    font-size: 20px;
+position: absolute;
+left: 1200px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(235, 11, 224);
+height: 30px;
+width: 100px;
+border-radius: 3px;
+font-family: Almarena;
+font-weight: bold;
+}
+.btn:hover{
+background-color: crimson;
+color: white;
+}
+.ri-menu-2-line{
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.ri-menu-2-line:hover{
+    color: black;
+}
+
+.para{
+    top: 70px;
+    /* background-color: red; */
+    position: absolute;
+    z-index: 50;
+    height: 590px;
+    width: 600px;
+    
+}
+.para p{
+    color: rgb(12, 12, 12);
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 130px;
+    left: 70px;
+}
+.para span{
+
+        color: rgb(238, 237, 235);
+        font-size: 15px;
+        
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        top: 220px;
+        left: 70px;
+    
+}
+.para span:hover{
+    transform: scale(1.1);
+    color: black;
+    font-weight: bold;
+    transition: all 3s ease-out;
+}
+
+.booti{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 330px;
+    left: 90px;
+    /* background: red; */
+    
+}
+.btna{
+    margin-left: 20px;
+    height: 30px;
+    width:90px;
+    border-radius: 5px;
+   
+    border: 1px solid black;
+    color: white;
+}
+.btna:hover{
+    color:black;
+}
+.btn1{
+    background-color: rgb(194, 10, 40);
+
+}
+.btn1:hover{
+    background-color: rgb(223, 196, 201);
+
+}
+.btn2{
+    background-color: rgb(40, 7, 187);
+
+}
+.btn2:hover{
+    background-color: rgb(212, 209, 228);
+
+}
+.btn3{
+    background-color: rgb(160, 9, 135);
+
+}
+.btn3:hover{
+    background-color: rgb(202, 172, 197);
+
+}
+
+.addCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:120px ;
+    height: 40px;
+    position: absolute;
+    top: 410px;
+    left: 140px;
+    /* background-color: red; */
+    
+
+}
+.price{
+    display: inline;
+    position:absolute;
+   left: 0px;  
+   color: white;   
+}
+
+.btna1{
+    height: 30px;
+    width:100px;
+    border-radius: 5px;
+    position: absolute;
+   
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    
+}
+.burgerImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: absolute;
+height: 250px;
+width: 300px;
+top: 420px;
+left: 110px;
+
+}
+.burgerImage img{
+    height: 80px;
+    width: 80px;
+    /* background-color: red; */
+    margin: 10px;
+    
+}
+.burgerImage img:hover{
+transform: scale(1.5);
+transition: all 1s ease-in-out;
+border: 1px solid rgb(255, 0, 85);
+border-radius: 5px;
+}
+
+.illu{
+position: absolute;
+height: 2px;
+background-color: black;
+width: 340px;
+top: 610px;
+left: 95px;
+display: flex;
+align-items: center;
+/* justify-content: center; */
+}
+.illu1{
+    position: absolute;
+    left:19px ;
+    background-color: rgb(12, 12, 12);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.illu1:hover{
+    transform: scale(1.8);
+    transition: all 0.3s ease-in-out;
+}
+.illu1:hover #bgI1{
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+.illu2{
+    position: absolute;
+    left: 115px;
+    background-color: rgb(12, 12, 12);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.illu2:hover{
+    transform: scale(1.8);
+    transition: all 0.3s ease-in-out;
+}
+.illu3{
+    position: absolute;
+    left:215px ;
+    background-color: rgb(12, 12, 12);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.illu3:hover{
+    transform: scale(1.8);
+    transition: all 0.3s ease-in-out;
+}
+.illu4{
+    position: absolute;
+    left:300px ;
+    background-color: rgb(12, 12, 12);
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.illu4:hover{
+    transform: scale(1.8);
+    transition: all 0.3s ease-in-out;
+}
+
+.on{
+    position: absolute;
+    height: 180px;
+    width: 180px;
+
+}
+.on1{
+    transform : perspective(200px) skew(20deg) rotate(90deg);
+    top: 370px;
+    z-index: +4;
+    margin-left: 150px;
+}
+.on2{
+    transform : perspective(200px) skew(20deg) rotate(60deg);
+    margin-right: 90px;
+    z-index: +3;
+top: 390px;
+}
+.on3{
+    transform : perspective(200px) skew(20deg) rotate(20deg);
+    top: 475px;
+    margin-left: 80px;
+    z-index: +2;
+}
+.on4{transform : perspective(200px) skew(20deg) rotate(90deg);
+    top:350px ;
+    z-index: +2;
+}
+.pt{
+    transform: rotate(40deg);
+    top: 230px;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    z-index: -1;
+
+
+}
+.pt2{
+    left: 720px;
+    position: absolute;
+    top: 370px;
+    z-index: +16;
+}
+.tm{
+    transform : perspective(200px) skew(10deg) rotate(20deg);
+    top: 400px;
+    position: absolute;
+    height: 120px;
+    width: 150px;
+    z-index: +9;
+}
+.kh{
+    /* transform: rotate(180deg) skew(-20deg) translateZ(400px); */
+
+    transform : perspective(200px) skew(40deg) rotate(40deg);
+   
+    top: 150px;
+    /* position: absolute; */
+    height: 250px;
+    width: 250px;
+}
+.kh2{
+    top: 360px;
+    left: 700px;
+    position: absolute;
+    margin-right: 100px;
+    
+}
+.cr{top: 300px;
+
+    position: absolute;
+    height: 120px;
+    width: 120px;
+}
+.cr1{
+    left: 750px;
+    top: 420px;
+    z-index: +10;
+    height: 150px;
+    width: 150px;
+    
+}
+.cr2{
+    top: 400px;
+    left: 650px;
+    z-index: +18;
+    height: 100px;
+    width: 100px;
+}
+.al{
+    transform : perspective(200px) skew(20deg) rotate(20deg);
+    top: 450px;
+    position: absolute;
+    height: 120px;
+    width: 250px;
+    z-index: +1;
+}
+.bn{
+
+    /* position: absolute; */
+    height: 120px;
+    width: 350px;
+}
+.bn2
+{
+    margin-top: 200px;
+    transform: rotate(195deg);
+    
+       
+}
+.bn1{
+    /* transform : perspective(200px) skew(20deg) rotate(20deg); */
+    position: absolute;
+    left: 465px;
+    top: 135px;
+    transform: rotate(17deg);
+    height: 350px;
+    width: 500px;
+
+    margin-left: 130px;
+    z-index: +20;
+
+}
+.al1{
+    transform : perspective(200px) skew(20deg) rotate(20deg);
+    position: absolute;
+    height: 120px;
+    width: 250px;
+    z-index: +19;
+    margin-top: 50px;
+    margin-left: 110px;
+    
+}
+
+.kh2{
+    margin-right: 45px;
+    /* z-index: -1; */
+}
+
+
+.burg:hover .bn1{
+    transform: translate3d(-5px,-80px,0px);
+    transition: all 3s ease-in-out;
+
+
+}
+.burg:hover .on{
+    transform: translate3d(-5px,-70px,0px);
+    transition: all 3s ease-in-out;
+
+}
+.burg:hover .kh{
+    transform: translate3d(-5px,-65px,0px);
+       transition: all 3s ease-in-out;
+       transform-origin: left bottom;
+
+}
+.burg:hover .cr{
+    transform: translate3d(-5px,-60px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+.burg:hover .al{
+    transform: translate3d(-5px,-55px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+
+.burg:hover .al1{
+    transform: translate3d(-5px,-55px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+
+.burg:hover .al2{
+    transform: translate3d(-5px,-20px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+.burg:hover .tm{
+    transform: translate3d(-5px,-45px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+.burg:hover .pt{
+    transform: translate3d(-5px,-35px,0px);
+    transition: all 3s ease-in-out;
+    transform-origin: left bottom;
+
+}
+.burg:hover .bn2{
+    
+    transform: rotate(185deg) translateY(-10px);;
+    transition: all 3s ease-in-out;
+
+}
+.boogi{
+    position: absolute;
+    right: 90px;
+    top: 180px;
+    height: 500px;
+    width: 500px;
+    filter: drop-shadow(-22px -12px 7px rgba(0, 0, 0, 0.562));
+}
+.burg:hover .boogi{
+    transform: scale(1.2);
+    transition: all 3s ease-in-out;
+}
